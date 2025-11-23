@@ -1,0 +1,21 @@
+{
+  "name": "funcoesemjavascript",
+  "version": "1.0.0",
+  "description": "Desafio\r Faça um programa que calcule e imprima o salário a ser transferido para um funcionário.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/runTests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleofasjunior/funcoesemjavascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cleofasjunior/funcoesemjavascript/issues"
+  },
+  "homepage": "https://github.com/cleofasjunior/funcoesemjavascript#readme"
+}

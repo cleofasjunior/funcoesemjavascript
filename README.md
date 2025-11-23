@@ -1,15 +1,32 @@
-# Funções na Prática em JavaScript
+# 🟢 Calculadora Salarial em Node.js
 
-Desafio
-Faça um programa que calcule e imprima o salário a ser transferido para um funcionário.
+> Resolução de desafio de lógica utilizando JavaScript moderno e modularização.
 
-Para realizar o calculo receba o valor bruto do salário e o adicional dos benefícios.
-O salário a ser transferido é calculado da seguinte maneira: 
+Este projeto demonstra a aplicação de lógica de programação para resolver problemas financeiros, implementado em JavaScript para execução no ambiente **Node.js**.
 
-(valor bruto do salário - percentual de imposto mediante ao salário) + adicional dos benefícios
+## 🎯 Regras de Negócio
+O cálculo do salário segue a fórmula:
+`Salário Líquido = (Bruto - Imposto) + Benefícios`
 
-Para calcular o percentual de imposto segue as aliquotas:
+| Faixa Salarial | Imposto |
+| :--- | :---: |
+| Até R$ 1.100,00 | 5% |
+| De R$ 1.100,01 a R$ 2.500,00 | 10% |
+| Acima de R$ 2.500,00 | 15% |
 
-    De R$ 0.00 a R$ 1100.00 = 5.00%
-    De R$ 1100.01 a R$ 2500.00 = 10.00%
-    Maior que R$ 2500.00 = 15.00%
+## 🛠️ Estrutura do Projeto
+O código foi organizado seguindo boas práticas de **Separação de Responsabilidades**:
+* `src/index.js`: Interface de linha de comando (CLI) e interação com o usuário.
+* `src/services/salaryService.js`: Lógica pura de cálculo (testável e reutilizável).
+
+## 🚀 Como Rodar
+
+1. Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
+2. Clone o repositório:
+   ```bash
+   git clone [https://github.com/cleofasjunior/funcoesemjavascript.git](https://github.com/cleofasjunior/funcoesemjavascript.git)
+3. Execute o projeto:
+   ```bash
+   node src/index.js
+
+Desenvolvido por Cleófas Júnior
